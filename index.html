@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML CSS Review</title>
+  <link rel="stylesheet" type="text/css" href="styleweek2day1.css">
+</head>
+<body>
+  <header>
+    <h1 id="sneaker-headline">Reinhard's Retro Sneakers</h1>
+    <h2>Top sneakers of all time</h2>
+    <img src="http://www.vulcan100.com/image/large/iPZ8kLwDTalalGc8iO3Dkutvi4cplOgGkGcrj=8h/wp-content/uploads/2013/07/air-jordan-1-89-fire-red-cement-grey-1.jpg">
+  </header>
+
+  <section id="my-sneaker-list">
+    <ol>
+      <li>Jordan 1</li>
+      <li class="sold-out">Yeezy's</li>
+      <li>Kobe's</li>
+      <li class="sold-out">Kobe's</li>
+    </ol>
+
+  </section>
+
+  <section id="order-form">
+    <h2>Order a pair!</h2>
+    <form method="POST" action="index.html">
+      <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" name="full-name" />
+      <br>
+
+      <label for="email">Email </label>
+      <input type="email" id="email" name="email" placeholder="I don't like .net emails"/>
+      <br>
+      
+
+      <label for="shoe">Select one: </label>
+      <select name="shoe">
+        <!-- you put the value which will be sent to server -->
+        <option value="Jordan One">Jordan One</option>
+        <option value="Adidas">Adidas</option>
+        <option value="Space Jam's">Space Jam's</option>
+      </select>
+      <br>
+
+      
+      <div id="color">
+        <label for="color">Colour:</label>
+        Red:<input type="radio" name="color" value="red"/>
+        Blue:<input type="radio" name="color" value="blue"/>  
+      </div>
+      
+      <label for="special-instructions">Special Instructions</label>
+      <textarea id="special-instructions" name="special-instructions" cols="100" rows="20"></textarea>
+
+      <br/>
+
+      <input type="submit" value="send!"/>
+
+    </form>
+    
+  </section>
+</body>
+</html>
