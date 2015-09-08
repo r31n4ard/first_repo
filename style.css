@@ -1,0 +1,47 @@
+body{
+  background-color: grey;
+}
+
+header{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#header1 img{
+  width: 200px;
+  height: 200px;
+}
+
+#header1 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+p {
+  background-color: gold;
+  color: white;
+}
+
+aside section h4{
+  text-align: center;
+}
+
+li{
+  text-align: center;
+}
+
+header h1{
+  font-size: 1.2em;
+}
+
+aside section p{
+  font-family:Courier;
+  text-decoration: underline;
+  color: #90D4B2;
+  line-height: 50px;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+}

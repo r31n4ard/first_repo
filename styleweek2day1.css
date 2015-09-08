@@ -1,0 +1,21 @@
+#sneaker-headline{
+  color: red;
+  background-color: gold;
+  width: 700px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+header img{
+  width: 300px;
+}
+
+#my-sneaker-list{
+  background-color: #000000;
+  color: pink;
+  padding-left: 40px;
+}
+
+.sold-out{
+  color: red;
+}

@@ -1,0 +1,64 @@
+/* css is scalable, inline styling in html looks busy and not scalable */
+
+header{
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  box-shadow: 10px 2px 20px;
+}
+
+header h1 {
+  color: #E89551;
+}
+
+h2{
+  color: green;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#experience{
+  border: 1px dotted fuchsia;
+  background-color: grey;
+  text-align: center;
+  border-radius: 15px;
+  /*margin-top: 40px;*/
+  margin: 40px 10px 10px 10px;
+
+}
+
+#experience li{
+  list-style: none;
+  font-size: 20px;
+}
+
+#experience h2{
+  padding-left: 15px;
+  margin-left: 50px;
+}
+
+#about-me{
+  background-color: yellow;
+  border: 2px dashed silver;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#about-me p{
+  font-size: 16px;
+  font-family: verdana;
+}
+
+#about-me p span:hover{
+  color: red;
+}
